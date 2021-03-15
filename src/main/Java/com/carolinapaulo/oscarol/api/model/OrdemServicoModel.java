@@ -8,7 +8,7 @@ import com.carolinapaulo.oscarol.domain.model.StatusOrdemServico;
 public class OrdemServicoModel {
 
 		private Long id;
-		private String nomeClient;
+		private ClientResumeModel client;
 		private String descricao;
 		private BigDecimal preco;
 		private StatusOrdemServico status;
@@ -18,11 +18,12 @@ public class OrdemServicoModel {
 		public void setId(Long id) {
 			this.id = id;
 		}
-		public String getNomeClient() {
-			return nomeClient;
+
+		public ClientResumeModel getClient() {
+			return client;
 		}
-		public void setNomeClient(String nomeClient) {
-			this.nomeClient = nomeClient;
+		public void setClient(ClientResumeModel client) {
+			this.client = client;
 		}
 		public String getDescricao() {
 			return descricao;
