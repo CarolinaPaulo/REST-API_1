@@ -1,6 +1,6 @@
 package com.carolinapaulo.oscarol.api.exceptionhandler;
 
-import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler{
 		var problem = new Problem();
 		problem.setStatus(status.value());
 		problem.setTitulo(ex.getMessage());
-		problem.setDataHora(LocalDateTime.now());
+		problem.setDataHora(OffsetDateTime.now());
 		
 		return handleExceptionInternal(ex, problem, new HttpHeaders(), status, request);
 	}
@@ -55,7 +55,7 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler{
 		var problem = new Problem();
 		problem.setStatus(status.value());
 		problem.setTitulo("Um ou mais campos estão inválidos. Faça o preenchimento correto e tente novamente");
-		problem.setDataHora(LocalDateTime.now());
+		problem.setDataHora(OffsetDateTime.now());
 		problem.setCampos(campos);
 		return super.handleExceptionInternal(ex, problem, headers, status, request);
 	
