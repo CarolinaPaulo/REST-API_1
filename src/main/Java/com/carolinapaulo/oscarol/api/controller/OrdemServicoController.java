@@ -46,16 +46,15 @@ public class OrdemServicoController {
 		return toModel(gestaoOrdemServico.create(ordemServico));
 	}
 	
-	@PutMapping
+	@PutMapping("/{ordemServicoId}/closed")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void close(@PathVariable Long ordemServicoId) {
 		gestaoOrdemServico.close(ordemServicoId);
 	}
 	
-	@GetMapping("/{ordemServicoId}/closed")
+	@GetMapping
 	public List<OrdemServicoModel> list(){
 		return toCollectionModel(ordemServicoRepository.findAll());
-		
 	}
 	
 	@GetMapping("/{ordemServicoId}")
