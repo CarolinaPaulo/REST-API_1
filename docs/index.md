@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+ <h1>REST API </h1> 
+> Project Status : :heavy_check_mark: (completed)
 
-You can use the [editor on GitHub](https://github.com/CarolinaPaulo/REST-API_1/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### Topics
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+:small_orange_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-### Markdown
+:small_orange_diamond: [Funcionalidades](#funcionalidades)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+:small_orange_diamond: [Linguagens, dependencias e libs utilizadas](#linguagens-dependencias-e-libs-utilizadas-books)
 
-```markdown
-Syntax highlighted code block
+## Description of the project
 
-# Header 1
-## Header 2
-### Header 3
+<p align="justify">
+ REST API project from the Spring Rest Course from Algaworks
+</p>
 
-- Bulleted
-- List
+## Funcionalidades
 
-1. Numbered
-2. List
+:heavy_check_mark: Funcionalidade 1: 
 
-**Bold** and _Italic_ and `Code` text
+:heavy_check_mark: Funcionalidade 2: 
 
-[Link](url) and ![Image](src)
-```
+:heavy_check_mark: Funcionalidade 3: 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+:heavy_check_mark: Funcionalidade 4: 
 
-### Jekyll Themes
+## Languagens, frameworks:books:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CarolinaPaulo/REST-API_1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [Java](https://docs.oracle.com/en/java/javase/11/index.html)
+- [Spring Framework](https://docs.spring.io/spring-framework/docs/current/reference/html/)
