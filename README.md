@@ -6,11 +6,11 @@ A REST API implementation exercise with Spring Framework
 
 ### Topics
 
-:small_orange_diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_orange_diamond: [Description of the project](#description-of-the-project)
 
-:small_orange_diamond: [Funcionalidades](#funcionalidades)
+:small_orange_diamond: [Features](#features)
 
-:small_orange_diamond: [Linguagens, dependencias e libs utilizadas](#linguagens-dependencias-e-libs-utilizadas-books)
+:small_orange_diamond: [Languagens and frameworks](#languagens-and-frameworks)
 
 ## Description of the project
 
@@ -28,7 +28,7 @@ A REST API implementation exercise with Spring Framework
 
 :heavy_check_mark: Feature 4: Problem Class (Add custom messages for the exception of the API) 
 
-## Languagens, frameworks :books:
+## Languagens and frameworks :books:
 
 - [Java](https://docs.oracle.com/en/java/javase/11/index.html)
 - [Spring Framework](https://docs.spring.io/spring-framework/docs/current/reference/html/)
